@@ -13,8 +13,6 @@ public class ProgrammEdu {
 
         ArithmeticProgression.calcprogression(15, 63, 0);   //4. Напишите программу, которая считает Возрастающую! арифметическую прогрессию a - число начала, b - число окончания, с -  коэффициент (с>0)
 
-
-
         Scanner in = new Scanner(System.in);
         System.out.print("Введите Ваше Имя: "); // Реализовать программу, которая считает индекс массы тела.
         String name = in.nextLine();

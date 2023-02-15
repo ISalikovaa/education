@@ -4,8 +4,7 @@ public class ProgrammEdu {
 
     public static void main(String args[]) {
 
-
-         System.out.println(TranslationFromBinary.calcbinary(111000)); ///1. Необходимо перевести двоичное число в десятеричную систему.
+        System.out.println(TranslationFromBinary.calcbinary(111000)); ///1. Необходимо перевести двоичное число в десятеричную систему.
 
         NumberComparison.calcequals(5, 89); ///2.Напишите программу на Java для сравнения двух чисел.
 
@@ -23,8 +22,8 @@ public class ProgrammEdu {
 
         double imt = Сalculator.culc(height, weight);
 
-        System.out.printf("Ваше Имя: %s ; Ваш рост (в см): %.2f ; Ваш вес (в кг): %.2f .\n", name, height, weight);
-        System.out.printf("Индекс массы тела %s  -  %.3f .\n", name, imt);
+        System.out.printf("ВАШЕ Имя: %s ; ВАШ рост (в см): %.2f ; ВАШ вес (в кг): %.2f .\n", name, height, weight);
+        System.out.printf("Индекс Массы Тела %s  -  %.3f .\n", name, imt);
         in.close();
 
     }
